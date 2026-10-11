@@ -15,7 +15,7 @@ const PROFILE = {
   location: "Kolkata, India",
   experience: "8+ years",
   cvUrl: "", // Example: "files/subhadeep-cv.pdf"
-  portrait: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85",
+  portrait: "file:///C:/Users/User/Downloads/Emblem_of_India.svg",
   behance: "https://www.behance.net/subhadeepash",
   linkedin: "",
   services: [
