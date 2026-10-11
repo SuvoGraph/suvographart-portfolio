@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Creative portfolio and selected design work." />
+  <title>Subhadeep Ash — Creative Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" id="brandName">SA<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="top-cta" href="#contact">Let's talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> AVAILABLE FOR SELECT PROJECTS</p>
+        <h1>Designing ideas<br>into <em>visual stories.</em></h1>
+        <p class="hero-sub" id="heroIntro">I’m Subhadeep Ash, a graphic designer creating memorable identities, illustrations and digital experiences.</p>
+        <div class="hero-actions"><a class="button primary" href="#portfolio">Explore my work <span>↘</span></a><a class="text-link" href="#about">More about me <span>↗</span></a></div>
+        <div class="hero-meta"><div><strong>8+</strong><span>Years of experience</span></div><div><strong>Branding</strong><span>Illustration · Digital</span></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="image-frame"><img id="portrait" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Portrait placeholder"></div>
+        <div class="floating-note"><span class="note-star">✳</span><div><strong>Good design</strong><small>makes ideas matter.</small></div></div>
+        <div class="vertical-label">INDEPENDENT CREATIVE · INDIA</div>
+      </div>
+      <div class="hero-bottom"><span>SCROLL TO DISCOVER</span><span class="scroll-line"></span><span>01 / 04</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-kicker">01 — ABOUT ME</div>
+      <div class="about-grid">
+        <div><h2>A little about<br><em>who I am.</em></h2></div>
+        <div class="about-copy">
+          <p class="lead" id="aboutText">I’m a graphic designer with a passion for turning complex ideas into clear, distinctive visuals. I work across branding, vector illustration, mascot design and motion graphics.</p>
+          <div class="details-grid">
+            <div><span>Name</span><strong id="detailName">Subhadeep Ash</strong></div>
+            <div><span>Email</span><strong id="detailEmail">hello@example.com</strong></div>
+            <div><span>Location</span><strong id="detailLocation">Kolkata, India</strong></div>
+            <div><span>Experience</span><strong id="detailExperience">8+ years</strong></div>
+          </div>
+          <a class="text-link" id="cvLink" href="#" target="_blank" rel="noopener">View résumé / CV <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="section-heading"><div><div class="section-kicker">02 — WHAT I DO</div><h2>Thoughtful design.<br><em>Purposeful results.</em></h2></div><p>From the first sketch to the final delivery, I help brands communicate with confidence.</p></div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </section>
+
+    <section class="section portfolio-section" id="portfolio">
+      <div class="section-heading"><div><div class="section-kicker">03 — SELECTED WORK</div><h2>A selection of<br><em>things I’ve made.</em></h2></div><p>A few projects that show my approach to visual problem-solving and creative direction.</p></div>
+      <div class="filters" id="filters"></div>
+      <div class="portfolio-grid" id="portfolioGrid"></div>
+    </section>
+
+    <section class="quote-band"><span class="quote-mark">“</span><p>Good design is not just how it looks.<br><em>It’s how clearly it communicates.</em></p><span class="quote-orbit">✳</span></section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-kicker">04 — GET IN TOUCH</div>
+      <div class="contact-grid">
+        <div><h2>Have a good<br><em>project in mind?</em></h2><p class="contact-intro">Tell me what you’re building. Let’s make something meaningful together.</p><a class="email-big" id="contactEmail" href="mailto:hello@example.com">hello@example.com ↗</a></div>
+        <div class="contact-card"><span class="card-label">START A CONVERSATION</span><p>For freelance projects, collaborations or just to say hello.</p><div class="contact-row"><span>Location</span><strong id="contactLocation">Kolkata, India</strong></div><div class="contact-row"><span>Social</span><strong id="socialLinks">Behance · LinkedIn</strong></div><a class="button primary full" id="emailButton" href="mailto:hello@example.com">Email me <span>↗</span></a></div>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home">SA<span>.</span></a><span id="footerText">© 2026 Subhadeep Ash. Made with intention.</span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
